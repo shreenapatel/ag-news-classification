@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ag-news-classification"
+version = "0.1.0"
+description = ""
+authors = ["shreenapatel <shreena88@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ag_news_classification"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+pandas = "^1.5.2"
+matplotlib = "^3.6.2"
+seaborn = "^0.12.1"
+tensorflow = "^2.11.0"
+kaggle = "^1.5.12"
+ipykernel = "^6.17.1"
+nltk = "^3.7"
+scikit-learn = "^1.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
